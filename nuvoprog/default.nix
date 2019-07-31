@@ -10,7 +10,7 @@ buildGoPackage rec {
 
   src = fetchgit {
     inherit rev;
-    url = "git@github.com:erincandescent/nuvoprog.git";
+    url = "https://github.com/erincandescent/nuvoprog.git";
     sha256 = "03j79hkh30754hcmi88cq9ivsp41rw4ll3vi4l8s5p41zz182pl5";
   };
 
